@@ -1,1 +1,5 @@
-let length = document.getElementById("length");
+// length conversion
+var meter = document.getElementById("length")
+function footToMeter() {
+    document.getElementById("length")
+}
