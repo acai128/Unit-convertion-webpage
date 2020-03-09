@@ -52,7 +52,7 @@
         <h2 class="units">Area</h2>
         <label for="sqft">Square foot</label>
         <input type="text" name="sqft" id="sqft">
-        <button name="area_convert" id="area_convert">Convert</button>
+        <button name="area_convert" id="area_convert" onclick="calcMeter()">Convert</button>
         <p>=</p>
         <label for="sqm">Square meter</label>
         <input type="text" name="sqm" id="sqm">
@@ -61,7 +61,7 @@
         <h2 class="units">Fuel Economy</h2>
         <label for="mpg">Mile per gallon</label>
         <input type="text" name="mpg" id="mpg">
-        <button name="fuel_convert" id="fuel_convert">Convert</button>
+        <button name="fuel_convert" id="fuel_convert" onclick="calcKilometer()">Convert</button>
         <p>=</p>
         <label for="kpl">Kilometer per liter</label>
         <input type="text" name="kpl" id="kpl">
@@ -70,7 +70,7 @@
         <h2 class="units">Energy</h2>
         <label for="watt_hour">Watt hour</label>
         <input type="text" name="watt_hour" id="watt_hour">
-        <button name="energy_convert" id="energy_convert">Convert</button>
+        <button name="energy_convert" id="energy_convert" onclick="calcKilowattHour()">Convert</button>
         <p>=</p>
         <label for="kilowatt_hour">Kilowatt hour</label>
         <input type="text" name="kilowatt_hour" id="kilowatt_hour">
@@ -79,10 +79,11 @@
         <h2 class="units">Cooking</h2>
         <label for="teaspoon">Teaspoon</label>
         <input type="text" name="teaspoon" id="teaspoon">
-        <button name="cook_convert" id="cook_convert">Convert</button>
+        <button name="cook_convert" id="cook_convert" onclick="calcMillilitre()">Convert</button>
         <p>=</p>
         <label for="millilitre">Millilitre</label>
         <input type="text" name="millilitre" id="millilitre">
     </div>
     <footer>&copy;2020, Amy Cai &amp; Xiaoxia Yin, Chingu Pair Project</footer>
+    <script src = "chingu.js"></script>
   </body>
