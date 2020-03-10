@@ -1,4 +1,43 @@
-.converters{
+/* HEADINGS & PARAGRAPHS*/
+h1, h2
+{
+    font-size: 20px;
+    color: turquoise;
+    font-family: verdana;
+    text-transform: none;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+  }
+  
+
+/* BUTTON */
+button:hover {
+    cursor: pointer;
+}
+
+/* BODY */
+body {
+    background-color: whitesmoke;
+  }
+ 
+/* Title */
+.header 
+{
+    text-align: center;
+    font-weight: bold;
+    border: double; 
+
+}
+
+.converters 
+{
+    text-align: center;
+    border-bottom: dashed;
     display: inline-block;
     width: 22%;
     height: 250px;
