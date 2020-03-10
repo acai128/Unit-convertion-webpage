@@ -9,6 +9,9 @@ h1, h2
     font-weight: bold;
 }
 
+h2.units {
+    margin-bottom: 5px;
+
 p {
     font-family: verdana;
     font-size: 15px;
