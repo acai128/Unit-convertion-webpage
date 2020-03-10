@@ -1,0 +1,32 @@
+.converters{
+    display: inline-block;
+    width: 22%;
+    height: 250px;
+    margin: 1.2%;
+    vertical-align: top
+}
+
+footer {
+    text-align: center;
+    padding: 10px
+}
+
+@media screen and (max-width: 992px) {
+    .converters {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .converters {
+        width: 45%
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .converters {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+}
